@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+button {
+    border-radius: 4px;
+    border: none;
+    padding: 4px 24px 4px 24px;
+    background-color: #3882F6;
+    color: white;
+}
+
+/* landing formatting */
+.landing {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 150px 0 150px;
+}
+/* header formatting in landing */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    margin-bottom: 48px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+}
+
+/* attention-grabber formatting in landing */
+.attention-grabber {
+    display: flex;
+    margin-bottom: 100px;
+    gap: 128px;
+}
+
+.herotext {
+    flex: 1;
+}
+
+.heromain{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.herosub {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 8px;
+    width: 450px;
+}
+
+.image {
+    flex: 1;
+}
+
+
+/* info formatting */
+
+/* quote formatting */
+
+/* sign-up formatting */
+
+/* footer formatting */

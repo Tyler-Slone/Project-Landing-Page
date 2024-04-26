@@ -53,7 +53,6 @@ a {
 .links {
     display: flex;
 }
-
 /* attention-grabber layout in landing */
 .attention-grabber {
     display: flex;
@@ -98,6 +97,7 @@ h2 {
     color: #1F2937;
 }
 
+/* Card layout in info */
 .card-container {
     display: flex;
     flex-direction: row;
@@ -140,6 +140,7 @@ h2 {
 
 }
 
+
 /* sign-up layout */
 .call-to-action{ 
     display: flex;
@@ -171,4 +172,14 @@ h2 {
     color: #E5E7EB;
 }
 
+
 /* footer layout */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 36px;
+    color: #E5E7EB;
+    font-weight: bold;
+}

@@ -21,7 +21,7 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.button1 {
     border-radius: 4px;
     border: none;
     padding: 4px 24px 4px 24px;
@@ -141,5 +141,34 @@ h2 {
 }
 
 /* sign-up layout */
+.call-to-action{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 75px 150px 75px 150px;
+    padding: 48px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.call-main {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.call-sub {
+    font-size: 18px;    
+}
+
+.button2 {
+    border: solid;
+    border-radius: 8px;
+    padding: 4px 24px 4px 24px;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+}
 
 /* footer layout */

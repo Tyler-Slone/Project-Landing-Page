@@ -123,6 +123,22 @@ h2 {
 
 
 /* quote layout */
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #E5E7EB;
+    padding: 48px 150px 0px 150px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    padding: 0 150px 100px 150px;
+
+}
 
 /* sign-up layout */
 

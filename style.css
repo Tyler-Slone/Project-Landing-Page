@@ -29,14 +29,14 @@ button {
     color: white;
 }
 
-/* landing formatting */
+/* landing layout */
 .landing {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     padding: 0 150px 0 150px;
 }
-/* header formatting in landing */
+/* header layout in landing */
 .header {
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ button {
     display: flex;
 }
 
-/* attention-grabber formatting in landing */
+/* attention-grabber layout in landing */
 .attention-grabber {
     display: flex;
     margin-bottom: 100px;
@@ -83,10 +83,47 @@ button {
 }
 
 
-/* info formatting */
+/* info layout */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 150px 0 150px;
+    gap: 48px;
+}
 
-/* quote formatting */
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 
-/* sign-up formatting */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 48px;
+}
 
-/* footer formatting */
+.card {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Missing text under cards will fix later */
+}
+
+
+/* quote layout */
+
+/* sign-up layout */
+
+/* footer layout */

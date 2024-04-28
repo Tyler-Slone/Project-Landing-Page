@@ -76,9 +76,15 @@ a {
     margin: 0 0 8px;
     width: 450px;
 }
-
+/* TODO: Image does not rescale and wrap when window size is changed */
 .image {
-    flex: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -107,18 +113,17 @@ h2 {
     gap: 48px;
 }
 
-.card {
+.card-img {
     width: 150px;
     height: 150px;
     overflow: hidden;
     border: 2px solid #3882F6;
     border-radius: 12px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.card-txt {
     text-align: center;
-    /* Missing text under cards will fix later */
+    max-width: 150px;
 }
 
 
@@ -137,7 +142,6 @@ h2 {
 .author {
     align-self: flex-end;
     padding: 0 150px 100px 150px;
-
 }
 
 
@@ -151,6 +155,7 @@ h2 {
     margin: 75px 150px 75px 150px;
     padding: 48px;
     border-radius: 10px;
+    gap: 16px;
     color: #E5E7EB;
 }
 

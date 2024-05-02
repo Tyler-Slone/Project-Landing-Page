@@ -23,13 +23,22 @@ a {
 /* Hero styling */
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
+    padding: 96px 256px 96px 256px;
+    gap: 96px;
+    flex-wrap: wrap;
 }
 
 .heroColumn {
     flex: 50%;
     color: #F9FAF8;
+    max-width: 430px;
+    min-width: 250px;
+    min-width: 430px;
+    min-height: 250px;
+    justify-content: center;
+    object-fit: contain;
 }
 
 .heroTitle{
@@ -42,6 +51,15 @@ a {
     margin: 0;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.heroButton {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding: 4px 24px 4px 24px;
 }
 
 
@@ -78,9 +96,12 @@ a {
 
 
 /* Quote styling */
+/* TODO: Fix quote rescaling nonsense */
 .quote {
     background-color: #E5E7EB;
     padding: 80px 500px 80px 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quoteMain {
@@ -92,7 +113,6 @@ a {
 
 .quoteSub {
     margin: 0;
-    text-align: right;
     font-weight: bold;
 }
 
@@ -106,6 +126,7 @@ a {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
+    min-width: 340;
     margin: 64px 256px 64px 256px;
     padding: 48px 16px 48px 16px;
     gap: 48px;

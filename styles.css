@@ -52,6 +52,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 16px 256px 80px 256px;
 }
 
 .cardContainer {
@@ -79,10 +80,12 @@ a {
 /* Quote styling */
 .quote {
     background-color: #E5E7EB;
+    padding: 80px 500px 80px 500px;
 }
 
 .quoteMain {
     margin: 0;
+    font-size: 36px;
     font-style: italic;
     font-weight: lighter;
 }
@@ -102,8 +105,8 @@ a {
     flex-wrap: wrap;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 10px;
-    margin: 64px 150px 64px 150px;
+    border-radius: 8px;
+    margin: 64px 256px 64px 256px;
     padding: 48px 16px 48px 16px;
     gap: 48px;
 }

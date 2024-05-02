@@ -83,10 +83,14 @@ a {
 
 .quoteMain {
     margin: 0;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .quoteSub {
     margin: 0;
+    text-align: right;
+    font-weight: bold;
 }
 
 

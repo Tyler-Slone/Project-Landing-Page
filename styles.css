@@ -102,12 +102,20 @@ a {
 
 
 /* Quote styling */
-/* TODO: Fix quote rescaling nonsense */
+.quoteBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
 .quote {
     background-color: #E5E7EB;
-    padding: 80px 500px 80px 500px;
     display: flex;
     flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 48px 16px 48px 16px;
 }
 
 .quoteMain {
@@ -132,7 +140,6 @@ a {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
-    min-width: 340;
     margin: 64px 256px 64px 256px;
     padding: 48px 16px 48px 16px;
     gap: 48px;

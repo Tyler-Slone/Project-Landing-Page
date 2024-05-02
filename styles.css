@@ -14,9 +14,15 @@ a {
 /* Header styling */
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
+    padding-top: 16px;
+}
+
+.header a {
+    display: inline-flex;
+    padding: 16px;
 }
 
 
